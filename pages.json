@@ -1,0 +1,80 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login",
+			"style" : {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+		        }
+		    }
+		},
+		{
+			"path": "pages/components/index/index",
+			"style" : {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+		        }
+		    }
+		},
+		{
+			"path": "pages/components/work/index",
+			"style" : {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+		        }
+		    }
+		},
+		{
+			"path": "pages/components/map/index",
+			"style" : {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+		        }
+		    }
+		},
+		{
+			"path": "pages/components/statistics/index",
+			"style" : {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+		        }
+		    }
+		}
+        ,{
+            "path" : "pages/components/navber/navber",
+            "style" : {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#225BA8",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/components/work/index",
+				"iconPath": "static/tarbar-icon/main.png",
+				"selectedIconPath": "static/tarbar-icon/main-copy.png",
+				"text": "工作台"
+		}, {
+				"pagePath": "pages/components/map/index",
+				"iconPath": "static/tarbar-icon/map.png",
+				"selectedIconPath": "static/tarbar-icon/map-copy.png",
+				"text": "地图"
+		}, {
+				"pagePath": "pages/components/statistics/index",
+				"iconPath": "static/tarbar-icon/statistics.png",
+				"selectedIconPath": "static/tarbar-icon/statistics-copy.png",
+				"text": "统计"
+		}]
+	}
+}
